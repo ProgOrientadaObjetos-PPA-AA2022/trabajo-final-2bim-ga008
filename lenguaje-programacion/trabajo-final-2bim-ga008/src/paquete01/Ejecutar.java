@@ -174,7 +174,7 @@ public class Ejecutar {
                 < c.obtenerDataPlanPostPagoMinutosMegasEconomico().size(); i++) {
             System.out.printf("PLAN POST PAGO MINUTOS MEGAS ECONOMICO Nº %d", i + 1);
             System.out.println(
-                    c.obtenerDataPlanPostPagoMinutosMegasEconomico());
+                    c.obtenerDataPlanPostPagoMinutosMegasEconomico().get(i));
             System.out.println("-------------------------------------------------");
         }
     }
